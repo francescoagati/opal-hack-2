@@ -1,0 +1,5 @@
+rvm use 1.9.3
+bundle install
+bundle exec rake dependencies
+bundle exec rake build
+open build/test.html
